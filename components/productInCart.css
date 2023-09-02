@@ -1,0 +1,27 @@
+import './productInCart.css';
+
+.product-cart {
+    border: 1px solid #7c7979;
+    border-radius: 4px;
+    padding: 5px;
+    margin: 10px 20px;
+    display: flex;
+    align-items: center;
+    background-color: white;
+    
+}
+
+.product-cart img{
+    width: 120px;
+    height: 110px;
+}
+
+.product-cart div{
+    flex: 6;
+    text-align: left;
+    margin-left: 10px;
+}
+
+.product-cart label {
+    flex: 1;
+}
